@@ -4,7 +4,7 @@
   background-color: aquamarine;
   position: relative;
   animation-name: example;
-  animation-duration: 8s; 
+  animation-duration: 0.51s; 
   animation-iteration-count: infinite;
 }
 
@@ -12,22 +12,22 @@
 @keyframes example {
   0% {
     background-color: aquamarine;
-    transform: translate(0, 0);
+    transform: translate(200px, 10px);
   }
   25% {
     background-color: coral;
-    transform: translate(1000px, 0);
+    transform: translate(500px, 300px);
   }
   50% {
     background-color: gold;
-    transform: translate(1000px, 500px);
+    transform: translate(10px, 500px);
   }
   75% {
     background-color: red;
-    transform: translate(0, 500px);
+    transform: translate(0, 100px);
   }
   100% {
     background-color: slateblue;
-    transform: translate(0, 0);
+    transform: translate(0, 050px);
   }
 }

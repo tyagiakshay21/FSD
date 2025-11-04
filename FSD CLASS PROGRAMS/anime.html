@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  position: relative;
+  animation-name: moveBox;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+/* Define the animation */
+@keyframes moveBox {
+  0%   { left: 0px; top: 0px; background-color: tomato; }
+  50%  { left: 200px; top: 0px; background-color: gold; }
+  100% { left: 0px; top: 0px; background-color: tomato; }
+}
+</style>
+</head>
+<body>
+
+<h2>CSS Animation Example</h2>
+<div class="box"></div>
+
+</body>
+</html>
